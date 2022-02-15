@@ -93,8 +93,8 @@ body{
     grid-template-areas: "u1 u2 u2"
                         "m1 m1 m3"
                         "d1 d2 m3";
-    row-gap: 10px;
-    column-gap: 10px;
+    row-gap: 12px;
+    column-gap: 12px;
     margin-bottom: 20px;
     
 }
@@ -145,4 +145,16 @@ body{
 
 .footer strong{
     text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    .container {
+     width: 70%;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+    .grid {
+     gap: 20px;
+    }
 }
